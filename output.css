@@ -1,0 +1,8 @@
+// resultado da compilicao do stlys engine
+
+div#page h2 {
+  background: url("img/goomba.png") no-repeat 0 0;
+  width: 520px;
+  height: 520px;
+  text-indent: -9999em;
+}
