@@ -1,0 +1,19 @@
+// functions return width and respective height of images
+w(img)
+    width image-size(img)[0]
+h(img)
+    height image-size(img)[1]
+
+back(img, r=false)
+    background url($path\/img) no-repeat
+    w(img)
+    h(img)
+    if r == true || r=='replacement' || r == replacement
+        text-indent -9999em
+
+// use mixin
+div#page
+    h2
+      bck('images/goomba.png', 'replacement')
+    
+    
