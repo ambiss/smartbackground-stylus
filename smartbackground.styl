@@ -5,7 +5,7 @@ h(img)
     height image-size(img)[1]
 
 back(img, r=false)
-    background url($path\/img) no-repeat
+    background url(img) no-repeat 0 0
     w(img)
     h(img)
     if r == true || r=='replacement' || r == replacement
@@ -14,6 +14,6 @@ back(img, r=false)
 // use mixin
 div#page
     h2
-      bck('images/goomba.png', 'replacement')
+      back('img/goomba.png', 'replacement')
     
     
